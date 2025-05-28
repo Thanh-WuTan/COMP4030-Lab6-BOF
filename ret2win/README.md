@@ -12,3 +12,4 @@ If successful, `win()` will print the flag located at `/flag`.
 
 ```bash
 gcc -fstack-protector-all -Wl,-z,relro,-z,now -no-pie -o ret2win ret2win.c
+```
