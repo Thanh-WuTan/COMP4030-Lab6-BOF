@@ -19,5 +19,5 @@ If successful, the binary will reveal the contents of `/flag`.
 If you want to rebuild it:
 
 ```bash
-gcc -no-pie -Wl,-z,relro,-z,now -o trigger_win trigger_win.c
+gcc -no-pie -Wl,-z,relro,-z,now -o chall trigger_win.c
 ```
