@@ -12,7 +12,7 @@ Because NX is disabled and ASLR is disabled, you can reliably execute your shell
 ## How to compile the binary
 
 ```bash
-gcc -no-pie -z execstack -fno-stack-protector -o ret2shellcode ret2shellcode.c
+gcc -no-pie -z execstack -fno-stack-protector -o chall ret2shellcode.c
 ```
 
 ## How to enable/disable ASLR on your system
