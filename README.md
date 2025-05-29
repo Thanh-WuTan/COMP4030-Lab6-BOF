@@ -31,4 +31,5 @@ Please submit to Canvas:
   - `ret2shellcode.py`
   - `ret2win.py`
   - `trigger_win.py`
+  - `stack_canary.py`
   - The PDF report: `report.pdf`
