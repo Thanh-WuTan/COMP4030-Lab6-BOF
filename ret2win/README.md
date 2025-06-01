@@ -11,5 +11,5 @@ If successful, `win()` will print the flag located at `/flag`.
 ## Build
 
 ```bash
-gcc -fstack-protector-all -Wl,-z,relro,-z,now -no-pie -o chall ret2win.c
+gcc -o chall ret2win.c -fno-stack-protector -no-pie
 ```
