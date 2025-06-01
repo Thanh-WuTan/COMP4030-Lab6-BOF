@@ -45,3 +45,8 @@ Please submit to Canvas:
   - `stack_canary.py`
   - The PDF report: `report.pdf`
 
+
+## Acknowledgments
+This lab is inspired by the excellent materials from [pwn.college](https://pwn.college).
+
+Special thanks to the amazing pwn.college team for their work on the dojo exercises and for making high-quality CTF-style training accessible to everyone.
