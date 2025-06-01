@@ -13,6 +13,17 @@ This lab will guide you through the process of identifying the vulnerability, un
 - Use GDB (GNU Debugger) to analyze and debug binaries.
 - Use Python and the pwntools library to craft automated exploit scripts.
 
+## Setup Instructions
+In this lab, the goal of each challenge is to have the flag printed out.
+
+To simulate this, you will create a simple flag file on your machine that can be accessed by the challenge binaries.
+
+Use the following commands:
+```bash
+sudo sh -c 'echo "FAKEFLAG{this_is_your_test_flag}" > /flag'
+sudo chmod 644 /flag
+```
+
 ## Student Deliverables
 
 Please submit to Canvas:
@@ -33,3 +44,4 @@ Please submit to Canvas:
   - `trigger_win.py`
   - `stack_canary.py`
   - The PDF report: `report.pdf`
+
