@@ -38,7 +38,6 @@ Please submit to Canvas:
   - Output logs or **screenshots** showing successful exploitation (e.g., flag printed).
   
 - A **ZIP file** containing:
-  - `pie_overflow.py`
   - `ret2shellcode.py`
   - `ret2win.py`
   - `trigger_win.py`
